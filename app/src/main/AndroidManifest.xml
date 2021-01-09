@@ -8,7 +8,17 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MyApplication">
+        android:theme="@style/AppTheme">
+        <activity android:name=".fitview.SimpleAdapterActivity"></activity>
+        <activity android:name=".fitview.SpinnerActivity" />
+        <activity android:name=".fitview.FitViewActivity" />
+        <activity android:name=".specialButtons.RadioButtonActivity" />
+        <activity android:name=".specialButtons.SwitchActivity" />
+        <activity android:name=".specialButtons.CheckBoxActivity" />
+        <activity android:name=".specialButtons.SpecialButtonsActivity" />
+        <activity android:name=".otherLayout.FrameLayoutActivity" />
+        <activity android:name=".otherLayout.RelativeLayoutActivity" />
+        <activity android:name=".otherLayout.OtherLayoutActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

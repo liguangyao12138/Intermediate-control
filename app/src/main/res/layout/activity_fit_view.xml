@@ -5,24 +5,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".fitview.FitViewActivity">
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="3.1 其他布局"
-        android:id="@+id/btn_otherLayout"/>
+        android:id="@+id/btn_ft_spinner"
+        android:textAllCaps="false"
+        android:text="3.3.1 下拉框 Spinner"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="3.2 特殊按钮"
-        android:id="@+id/btn_specialButton"/>
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="3.3 适配视图基础"
-        android:id="@+id/btn_fitViewBasics"/>
+        android:id="@+id/btn_ft_simpleAdapter"
+        android:textAllCaps="false"
+        android:text="3.3.3 简单适配器 SimpleAdapter"/>
 
 </LinearLayout>

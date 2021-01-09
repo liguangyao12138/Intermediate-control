@@ -5,24 +5,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".otherLayout.OtherLayoutActivity">
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="3.1 其他布局"
-        android:id="@+id/btn_otherLayout"/>
+        android:text="3.1.1 相对布局 RelativeLayout"
+        android:textAllCaps="false"
+        android:id="@+id/btn_relativeLayoutView"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="3.2 特殊按钮"
-        android:id="@+id/btn_specialButton"/>
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="3.3 适配视图基础"
-        android:id="@+id/btn_fitViewBasics"/>
+        android:text="3.1.2 框架布局 FrameLayout"
+        android:textAllCaps="false"
+        android:id="@+id/btn_frameLayoutView"/>
 
 </LinearLayout>

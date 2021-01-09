@@ -5,24 +5,27 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".specialButtons.SpecialButtonsActivity">
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="3.1 其他布局"
-        android:id="@+id/btn_otherLayout"/>
+        android:text="3.2.1 复选框 CheckBox"
+        android:id="@+id/btn_specialButton_checkBox"
+        android:textAllCaps="false"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="3.2 特殊按钮"
-        android:id="@+id/btn_specialButton"/>
+        android:text="3.2.2 开关按钮 Switch"
+        android:id="@+id/btn_button_switch"
+        android:textAllCaps="false"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="3.3 适配视图基础"
-        android:id="@+id/btn_fitViewBasics"/>
+        android:text="3.2.3 单选按钮 RadioButton"
+        android:id="@+id/btn_button_radioButton"
+        android:textAllCaps="false"/>
 
 </LinearLayout>
