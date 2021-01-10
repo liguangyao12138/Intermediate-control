@@ -6,6 +6,7 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.myapplication.editbox.EditBoxActivity;
 import com.example.myapplication.fitview.FitViewActivity;
 import com.example.myapplication.otherLayout.OtherLayoutActivity;
 import com.example.myapplication.specialButtons.SpecialButtonsActivity;
@@ -21,6 +22,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.btn_otherLayout).setOnClickListener(this);
         findViewById(R.id.btn_specialButton).setOnClickListener(this);
         findViewById(R.id.btn_fitViewBasics).setOnClickListener(this);
+        findViewById(R.id.btn_editBox).setOnClickListener(this);
     }
 
     @Override
@@ -39,6 +41,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }else if(v.getId() == R.id.btn_fitViewBasics){
             Intent intent = new Intent(this, FitViewActivity.class);
             startActivity(intent);
+
+            //3.4 编辑框
+        }else if(v.getId() == R.id.btn_editBox){
+            Intent intent = new Intent(this, EditBoxActivity.class);
+            startActivity(intent);
+
         }
     }
 }

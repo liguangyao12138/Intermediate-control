@@ -25,4 +25,10 @@
         android:text="3.3 适配视图基础"
         android:id="@+id/btn_fitViewBasics"/>
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3.4 编辑框"
+        android:id="@+id/btn_editBox"/>
+
 </LinearLayout>

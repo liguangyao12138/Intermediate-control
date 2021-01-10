@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".fitview.SimpleAdapterActivity"></activity>
+        <activity android:name=".editbox.EditTextActivity"></activity>
+        <activity android:name=".editbox.EditBoxActivity" />
+        <activity android:name=".fitview.SimpleAdapterActivity" />
         <activity android:name=".fitview.SpinnerActivity" />
         <activity android:name=".fitview.FitViewActivity" />
         <activity android:name=".specialButtons.RadioButtonActivity" />
