@@ -6,6 +6,7 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.myapplication.activity.FirstActivity;
 import com.example.myapplication.editbox.EditBoxActivity;
 import com.example.myapplication.fitview.FitViewActivity;
 import com.example.myapplication.otherLayout.OtherLayoutActivity;
@@ -23,6 +24,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.btn_specialButton).setOnClickListener(this);
         findViewById(R.id.btn_fitViewBasics).setOnClickListener(this);
         findViewById(R.id.btn_editBox).setOnClickListener(this);
+        findViewById(R.id.btn_main_activity).setOnClickListener(this);
     }
 
     @Override
@@ -47,6 +49,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             Intent intent = new Intent(this, EditBoxActivity.class);
             startActivity(intent);
 
+        }else if(v.getId() == R.id.btn_main_activity){
+            Intent intent = new Intent(this, FirstActivity.class);
+            startActivity(intent);
         }
     }
 }

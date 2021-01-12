@@ -45,4 +45,54 @@
         android:hint="我的边框是圆角"
         android:background="@drawable/editext_selector"/>
 
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <EditText
+        android:id="@+id/et_elevenHide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:hint="输入11位时自动隐藏输入法"
+        android:inputType="number"
+        android:maxLength="11"
+        android:background="@drawable/editext_selector" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <EditText
+        android:id="@+id/et_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:hint="请输入用户名"
+        android:inputType="text"
+        android:background="@drawable/editext_selector" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:hint="请输入密码"
+        android:inputType="textPassword"
+        android:background="@drawable/editext_selector" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <Button
+        android:id="@+id/btn_login"
+        style="@style/btn_relative"
+        android:layout_width="match_parent"
+        android:text="登录" />
+
 </LinearLayout>

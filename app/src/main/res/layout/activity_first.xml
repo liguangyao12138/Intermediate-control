@@ -5,22 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".editbox.EditBoxActivity">
+    tools:context=".activity.FirstActivity">
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="3.4.1 文本编辑框 EditText"
-        android:textAllCaps="false"
-        android:id="@+id/btn_editBox_editText"/>
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="3.4.2 自动完成编辑框 AutoCompleteTextView"
-        android:textAllCaps="false"
-        android:id="@+id/btn_autoTv"/>
-
-
+        android:id="@+id/btn_firstActivity"
+        android:text="第一个Activity"
+        android:textAllCaps="false"/>
 
 </LinearLayout>

@@ -16,12 +16,16 @@ public class EditBoxActivity extends AppCompatActivity implements View.OnClickLi
         setContentView(R.layout.activity_edit_box);
 
         findViewById(R.id.btn_editBox_editText).setOnClickListener(this);
+        findViewById(R.id.btn_autoTv).setOnClickListener(this);
     }
 
     @Override
     public void onClick(View v) {
         if(v.getId() == R.id.btn_editBox_editText){
             Intent intent = new Intent(this, EditTextActivity.class);
+            startActivity(intent);
+        }else if(v.getId() == R.id.btn_autoTv){
+            Intent intent = new Intent(this, AutoCompleteTextViewActivity.class);
             startActivity(intent);
         }
     }
