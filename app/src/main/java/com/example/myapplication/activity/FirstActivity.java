@@ -19,6 +19,7 @@ public class FirstActivity extends AppCompatActivity implements View.OnClickList
         setContentView(R.layout.activity_first);
 
         findViewById(R.id.btn_firstActivity).setOnClickListener(this);
+        findViewById(R.id.btn_requestActivity).setOnClickListener(this);
     }
 
     @Override
@@ -61,6 +62,9 @@ public class FirstActivity extends AppCompatActivity implements View.OnClickList
     public void onClick(View v) {
         if(v.getId() == R.id.btn_firstActivity){
             Intent intent = new Intent(this,SecondActivity.class);
+            startActivity(intent);
+        }else if(v.getId() == R.id.btn_requestActivity){
+            Intent intent = new Intent(this , RequestActivity.class);
             startActivity(intent);
         }
     }
